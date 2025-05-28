@@ -6,4 +6,12 @@ workers_dev = true
 compatibility_date = "2023-01-01"
 
 [vars]
-# Define any environment variables here
+HASSIO_URI = ""
+HASSIO_TOKEN = ""
+
+[[ai]]
+bind = "AI"
+
+[[secret_store_secrets]]
+bind = "SECRETS"
+id = "8c42fa70938644e0a8a109744467375f"
